@@ -77,6 +77,10 @@ body{
     border-bottom-left-radius: 20px;
 }
 
+/* .navigation ul{
+    max-width: 50vw;
+} */
+
 .active{
     font-weight: bold;
 }
@@ -180,5 +184,11 @@ body{
 
     .inline-list__item{
         display: inline;
+        padding: auto;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
     }
 }
