@@ -25,7 +25,7 @@ body{
 .link{
     display: inline-block;
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 5px;
@@ -74,9 +74,16 @@ body{
     border-bottom-left-radius: 20px;
 }
 
+.active{
+    font-weight: bold;
+}
+
 /* header  */
+.header{
+    margin-top: 6rem;
+}
 .hero-img{
-    width: 20vw;
+    width: 25vw;
 }
 .text-primary-color{
     color: var(--color-primary);
@@ -89,6 +96,33 @@ body{
 
 .section-offwhite{
     background-color: var(--color-offwhite);
+}
+
+/* card  */
+.card{
+    width: 25vw;
+    /* box-shadow: 2px 0px 1px var(--color-primary); */
+    padding: 1rem 2rem 3rem 2rem;
+    border-radius: 10px;
+    text-align: left;
+    margin: 2rem;
+    /* height: 30vh; */
+    border-left: 5px solid var(--color-primary);
+    background-color: rgb(214, 214, 214);
+}
+.card .link{
+    margin-left: 0;
+    margin-top: 1rem;
+}
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem ;
+}
+.card img{
+    width: 5rem;
 }
 
 /* footer  */
@@ -106,4 +140,22 @@ body{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 768px){
+    .hero-img{
+        width: 45vw;
+    }
+    .card{
+        width: 70vw;
+    }
+    .card-holder{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5rem 0rem ;
+    }
 }
