@@ -167,7 +167,7 @@ body{
 /* mobile responsive */
 @media screen and (max-width: 768px){
     .hero-img{
-        width: 45vw;
+        width: 50vw;
     }
     .card{
         width: auto;
