@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 :root{
     --color-primary: #f97316;
@@ -14,6 +15,11 @@ body{
     padding: 0;
 }
 
+.navigation h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 /* container */
 .container{
