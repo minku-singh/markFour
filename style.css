@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root{
     --color-primary: #f97316;
     --color-offwhite: #fdba74;
@@ -6,7 +8,8 @@
 }
 
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: larger; */
     margin: 0;
     padding: 0;
 }
@@ -138,8 +141,18 @@ body{
     margin-bottom: 0;
 }
 
+.footer img{
+    width: 2rem;
+}
+
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 /* mobile responsive */
@@ -148,7 +161,8 @@ body{
         width: 45vw;
     }
     .card{
-        width: 70vw;
+        width: auto;
+        margin: 2vw;
     }
     .card-holder{
         display: flex;
