@@ -1,3 +1,10 @@
+:root{
+    --color-primary: #f97316;
+    --color-offwhite: #fdba74;
+
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -10,4 +17,31 @@ body{
 }
 .container-center{
     text-align: center;
+}
+
+/* link  */
+.link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.link-primary{
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: white;
+}
+.link-primary:hover{
+    background-color: initial;
+    color: var(--color-primary);
+}
+.link-secondary{
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+.link-secondary:hover{
+    background-color: var(--color-primary);
+    color: white;
 }
